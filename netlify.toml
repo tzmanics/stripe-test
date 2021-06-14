@@ -1,0 +1,3 @@
+[build]
+  publish = "dist/stripe-test"
+  command = "ng build --prod"
