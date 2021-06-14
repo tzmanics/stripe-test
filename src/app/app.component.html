@@ -9,7 +9,7 @@
       {{ product.description }}
       <div class="buy-products">
         <h3>{{ product.price | currency }}</h3>
-        <button (click)="(true)">Buy Now</button>
+        <button (click)="triggerCreateCheckout(product)">Buy Now</button>
       </div>
     </div>
   </div>
